@@ -1,0 +1,16 @@
+my_dict = {'Alex': 2001, 'Nick': 1999, 'John': 2004}
+print(my_dict)
+print(my_dict['Nick'])
+print(my_dict.get('Max'))
+my_dict.update({'Max': 1995, 'Margo': 2005})
+mean = my_dict.pop('John')
+print(my_dict)
+print(mean)
+my_set = {3, 'whiskey', 5051,'Udo', 0, 7, 5051, 8, 0, 'Udo', 7, 8}
+print(my_set)
+my_set.add(5)
+my_set.add((3, 2, 0))
+print(my_set)
+list_= list(my_set)
+list_.remove(5051)
+print(set(list_))
